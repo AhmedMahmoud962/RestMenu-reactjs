@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Josefin+Slab'); */
+
+
+
+@keyframes darken {
+  0% {
+    font-size: 100px;
+    color: #566573;
+  }
+
+  50% {
+    font-size: 200px;
+    color: #273746;
+  }
+
+  100% {
+    font-size: 250px;
+    color: #17202a;
+  }
+}
+
+
+h1 {
+  /* font-family: 'Alfa Slab One', cursive; */
+  margin: 100px auto;
+  /* inline: block; */
+  text-align: center;
+  animation-name: darken;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+h3 {
+  /* font-family: 'Josefin Slab', serif; */
+  margin: 0 auto;
+  /* inline: block; */
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.navlink {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #273746;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  @keyframes darken {
+    0% {
+      font-size: 25px;
+      color: #566573;
+    }
+
+    50% {
+      font-size: 50px;
+      color: #273746
+    }
+
+    100% {
+      font-size: 75px;
+      color: #17202a
+    }
+  }
+}

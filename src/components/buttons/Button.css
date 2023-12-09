@@ -1,0 +1,41 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button-group button {
+  font-size: 12px;
+  font-weight: bolder;
+  margin: 5px;
+  padding: 7px 20px;
+  background-color: rgb(9, 203, 9);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  transition: all .6s;
+}
+
+.button-group button:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 770px) {
+  .button-group {
+    width: 90%;
+  }
+
+  .button-group button {
+    margin: 5px;
+    padding: 6px 12px;
+
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .button-group {
+    width: 100%;
+  }
+}
