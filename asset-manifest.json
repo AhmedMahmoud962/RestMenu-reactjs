@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/RestMenu-reactjs/static/css/main.d1dde604.css",
+    "main.js": "/RestMenu-reactjs/static/js/main.63e37509.js",
+    "static/media/3.jpg": "/RestMenu-reactjs/static/media/3.369cd0f14d01cb8ded14.jpg",
+    "index.html": "/RestMenu-reactjs/index.html",
+    "main.d1dde604.css.map": "/RestMenu-reactjs/static/css/main.d1dde604.css.map",
+    "main.63e37509.js.map": "/RestMenu-reactjs/static/js/main.63e37509.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1dde604.css",
+    "static/js/main.63e37509.js"
+  ]
+}
